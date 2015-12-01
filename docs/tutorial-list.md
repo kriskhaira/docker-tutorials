@@ -1,5 +1,5 @@
 +++
-draft=true
+draft = true
 title = "List of Tutorials"
 description = "Temporary top page for the tutorial"
 keywords = ["tutorial"]
