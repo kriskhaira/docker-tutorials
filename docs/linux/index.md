@@ -2,13 +2,14 @@
 title = "Get Started with Docker"
 description = "Getting started with Docker"
 keywords = ["beginner, getting started, Docker"]
+aliases = ["/linux/started/"]
 [menu.linux]
 identifier = "linux_getstarted"
 +++
 
 # Get Started with Docker for Linux
 
-#### **This is written for users of Linux distribution such as Ubuntu. If you are not using Linux, see the [Windows](../windows/started.md) or [Mac OS X](../mac/started.md) version.**
+#### **This is written for users of Linux distribution such as Ubuntu. If you are not using Linux, see the [Windows](../windows/index.md) or [Mac OS X](../mac/index.md) version.**
 
 This getting started is for non-technical users who are interested in learning about Docker. By following this getting started, you'll learn fundamental Docker features by performing some simple tasks. You'll learn how to:
 

@@ -9,8 +9,8 @@ keywords = ["tutorial"]
 
 Select the demo appropriate to your operating system:
 
-### [Mac OS X demo](./mac/started.md)
+### [Mac OS X demo](./mac/index.md)
 
-### [Linux demo](./linux/started.md)
+### [Linux demo](./linux/index.md)
 
-### [Windows demo](./windows/started.md)
+### [Windows demo](./windows/index.md)

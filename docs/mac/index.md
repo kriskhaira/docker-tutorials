@@ -2,13 +2,14 @@
 title = "Get Started with Docker"
 description = "Getting started with Docker"
 keywords = ["beginner, getting started, Docker"]
+aliases = ["/mac/started/"]
 [menu.mac]
 identifier = "mac_getstarted"
 +++
 
 # Get Started with Docker for Mac OS X
 
-#### **This is written for users of Mac OS X. If you are not using Mac OS X, see the [Linux](../linux/started.md) or [Windows](../windows/started.md) version.**
+#### **This is written for users of Mac OS X. If you are not using Mac OS X, see the [Linux](../linux/index.md) or [Windows](../windows/index.md) version.**
 
 This getting started is for non-technical users who are interested in learning about Docker. By following this getting started, you'll learn fundamental Docker features by performing some simple tasks. You'll learn how to:
 
