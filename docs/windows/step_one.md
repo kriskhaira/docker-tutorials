@@ -17,7 +17,8 @@ Windows.
 
 ## Step 1: Check your version
 
-Your machine must be running Windows 7.1, 8/8.1 or newer to run Docker Toolbox. To find out what version of Windows you have:
+To run Docker, your machine must have a 64-bit operating system running Windows 7 or higher. Additionally, you must make sure that virtualization is enabled on your machine. 
+To verify your machine meets these requirements, do the following:
 
 1. Right click the windows message and choose **System*.
 
@@ -43,6 +44,11 @@ Your machine must be running Windows 7.1, 8/8.1 or newer to run Docker Toolbox. 
 target="_blank"> Microsoft® Hardware-Assisted Virtualization Detection Tool</a>
 and follow the on-screen instructions.
 
+3. Verify your Windows OS is 64-bit (x64)
+
+   How you do this verification depends on your Windows version.  For details, see the Windows 
+    article [How to determine whether a computer is running a 32-bit version or 64-bit version 
+    of the Windows operating system](https://support.microsoft.com/en-us/kb/827218).
 
 ## Step 2: Install Docker Toolbox
 
