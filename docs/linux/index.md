@@ -1,11 +1,5 @@
-+++
-title = "Get Started with Docker"
-description = "Getting started with Docker"
-keywords = ["beginner, getting started, Docker"]
-aliases = ["/linux/started/"]
-[menu.linux]
-identifier = "linux_getstarted"
-+++
+
+ADDING a BAD LINK, DON"T MERGE [somewhere](I_hope_this_does_not_exist.md)
 
 # Get Started with Docker for Linux
 
