@@ -53,7 +53,7 @@ If you don't already have a terminal open, open one now:
     your image's ID and your account name and press RETURN.
 
 		$ docker tag 7d9495d03763 maryatdocker/docker-whale:latest
-	
+
 7. Type the `docker images` command again to see your newly tagged image.
 
         $ docker images
@@ -95,11 +95,11 @@ If you don't already have a terminal open, open one now:
 			a82efea989f9: Image successfully pushed
 			e9e06b06e14c: Image successfully pushed
 			Digest: sha256:ad89e88beb7dc73bf55d456e2c600e0a39dd6c9500d7cd8d1025626c4b985011
-			
+
 10. Return to your profile on Docker Hub to see your new image.
 
 	 {{< figure src="/tutimg/new_image.png" >}}
-	
+
 # Step 2: Pull your new image
 
 In this last section, you'll pull the image you just pushed to hub. Before you
@@ -130,12 +130,12 @@ images.
 
 		$ docker rmi -f 7d9495d03763
 		$ docker rmi -f docker-whale
-		
-4. Pull a new image from your repository using the `docker pull` command.
+
+4. Pull and load a new image from your repository using the `docker run` command.
 
     The command you type should include your username from Docker Hub.
 
-         docker pull yourusername/docker-whale
+         docker run yourusername/docker-whale
 
 	Since the image is no longer available on your local system, Docker downloads it.
 
@@ -171,14 +171,14 @@ images.
                         \
                          \
                           \
-                                  ##        .            
-                            ## ## ##       ==            
-                         ## ## ## ##      ===            
-                     /""""""""""""""""___/ ===        
-                ~~~ {~~ ~~~~ ~~~ ~~~~ ~~ ~ /  ===- ~~~   
-                     \______ o          __/            
-                      \    \        __/             
-                        \____\______/   
+                                  ##        .
+                            ## ## ##       ==
+                         ## ## ## ##      ===
+                     /""""""""""""""""___/ ===
+                ~~~ {~~ ~~~~ ~~~ ~~~~ ~~ ~ /  ===- ~~~
+                     \______ o          __/
+                      \    \        __/
+                        \____\______/
 
 ## Where to go next
 

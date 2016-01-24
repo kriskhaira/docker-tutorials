@@ -120,11 +120,11 @@ images.
         $ docker rmi -f 7d9495d03763
         $ docker rmi -f docker-whale
 
-4. Pull a new image from your repository using the `docker pull` command.
+4. Pull and load a new image from your repository using the `docker run` command.
 
     The command you type should include your username from Docker Hub.
 
-         docker pull yourusername/docker-whale
+         docker run yourusername/docker-whale
 
     Since the image is no longer available on your local system, Docker downloads it.
 
@@ -160,14 +160,14 @@ images.
                           \
                            \
                             \
-                                    ##        .            
-                              ## ## ##       ==            
-                           ## ## ## ##      ===            
-                       /""""""""""""""""___/ ===        
-                  ~~~ {~~ ~~~~ ~~~ ~~~~ ~~ ~ /  ===- ~~~   
-                       \______ o          __/            
-                        \    \        __/             
-                          \____\______/   
+                                    ##        .
+                              ## ## ##       ==
+                           ## ## ## ##      ===
+                       /""""""""""""""""___/ ===
+                  ~~~ {~~ ~~~~ ~~~ ~~~~ ~~ ~ /  ===- ~~~
+                       \______ o          __/
+                        \    \        __/
+                          \____\______/
 
 ## Where to go next
 
